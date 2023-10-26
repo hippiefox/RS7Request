@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RS7Request_Example' do
+  pod 'RS7Request', :path => '../'
+
+  target 'RS7Request_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
