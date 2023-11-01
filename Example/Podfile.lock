@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Cache (6.0.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
+  - RS7Request (0.1.0):
+    - Cache
+    - Moya
+    - RealReachability
+
+DEPENDENCIES:
+  - RS7Request (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cache
+    - Moya
+    - RealReachability
+
+EXTERNAL SOURCES:
+  RS7Request:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
+  RS7Request: 0843469d90e81861426b30ba5c10e8ef262955f6
+
+PODFILE CHECKSUM: e57815b27db2f9ee754950e7fe872473a02dc9e2
+
+COCOAPODS: 1.13.0

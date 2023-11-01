@@ -1,0 +1,6 @@
+framework module RS7Request {
+  umbrella header "RS7Request-umbrella.h"
+
+  export *
+  module * { export * }
+}
