@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'git@github.com:hippiefox/RS7Request.git'
+  s.name             = 'RS7Request'
   s.version          = '0.1.0'
   s.summary          = 'A short description of RS7Request.'
 
