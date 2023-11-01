@@ -5,7 +5,7 @@ PODS:
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
-  - RS7Request (0.1.0):
+  - RS7Request (0.2.0):
     - Cache
     - Moya
 
@@ -26,7 +26,7 @@ SPEC CHECKSUMS:
   Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
   Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
-  RS7Request: 113b5b6496bd9f6645a88644c4238153194c5317
+  RS7Request: de471b33b37f3a70acb3502ba786159865db9531
 
 PODFILE CHECKSUM: e57815b27db2f9ee754950e7fe872473a02dc9e2
 
