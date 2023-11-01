@@ -7,7 +7,9 @@
 
 import Foundation
 import Moya
+
 public class RS7Request<Target: RS7TargetType> {
+    
     public static func request(_ target: Target, completion: @escaping RS7RequestCompletion) {
         let url = target.baseURL.absoluteString + target.path
         let urlCacheKey = RS7CacheKey.keyOf(url: url, params: target.params)
@@ -82,7 +84,7 @@ public class RS7Request<Target: RS7TargetType> {
     }
 
     public static func decrypt(rawStr: String) -> String? {
-        fatalError("unimplement")
+        RS7RequestHelper.shared.helper?.decrypt(rawStr: rawStr)
     }
 
     static func provide(timeout: TimeInterval) -> MoyaProvider<Target> {
