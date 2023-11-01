@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   
     s.dependency 'Cache'
-    s.dependency 'RealReachability'
+    #s.dependency 'RealReachability'
     s.dependency 'Moya'
 end
